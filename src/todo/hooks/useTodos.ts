@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { TodoContext } from "../todo/context/TodoContext"
+import { TodoContext } from "../context/TodoContext"
 
 export const useTodos= () => {
   const { todoState, toggleTodo, isShowForm, toggleView, addTodo, todoSelected, editTodo, removeTodo, setCurrentTodo } = useContext( TodoContext )

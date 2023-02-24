@@ -1,4 +1,4 @@
-import { useTodos } from "../../hooks/useTodos";
+import { useTodos } from "../hooks/useTodos";
 
 export const Header = () => {
   const { isShowForm, toggleView, todoSelected, setCurrentTodo } = useTodos();

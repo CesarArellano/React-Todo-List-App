@@ -1,5 +1,5 @@
-import { useForm } from '../../hooks/useForm';
-import { useTodos } from '../../hooks/useTodos';
+import { useForm } from '../hooks/useForm';
+import { useTodos } from '../hooks/useTodos';
 import { SyntheticEvent } from 'react';
 
 import '../../index.css'

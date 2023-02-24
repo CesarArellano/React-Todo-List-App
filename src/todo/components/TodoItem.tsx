@@ -1,5 +1,5 @@
 import { TodoInterface } from '../interfaces/interfaces';
-import { useTodos } from '../../hooks/useTodos';
+import { useTodos } from '../hooks/useTodos';
 
 interface Props {
   todo: TodoInterface
